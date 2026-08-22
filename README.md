@@ -44,7 +44,7 @@ A temporary scheduled GrantOps Public Sync can maintain the public snapshot unti
 
 `.github/workflows/pages.yml` validates `data/public.json` and deploys the static repository with the official GitHub Pages actions.
 
-Set **Settings → Pages → Build and deployment → Source** to **GitHub Actions** once.
+**Pages source is configured as GitHub Actions.** This commit intentionally triggers the initial deployment after enabling Pages.
 
 Expected URL:
 
