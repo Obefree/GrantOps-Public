@@ -1,0 +1,43 @@
+name: Merge public outreach data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/interactions.json'
+      - '.github/workflows/merge-interactions.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Merge interactions into public snapshot
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/public.json')
+          i = Path('data/interactions.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          data['interactions'] = json.loads(i.read_text(encoding='utf-8'))
+          data.setdefault('meta', {})['outreach_updated_at'] = '2026-08-22'
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+      - name: Commit merged snapshot
+        run: |
+          git config user.name "GrantOps Public Sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/public.json
+          if git diff --cached --quiet; then
+            echo "No public snapshot changes"
+            exit 0
+          fi
+          git commit -m "Merge public outreach interactions"
+          git push
