@@ -1,36 +1,51 @@
 # GrantOps Public
 
-Public GitHub Pages view of the private `Obefree/GrantOps` operating database.
+Public GitHub Pages dashboard generated from the private `Obefree/GrantOps` operating database.
 
-## What is here
+## Minimal architecture
 
-- `index.html` — partner-facing funding and collaboration dashboard.
-- `data/public.json` — public-safe snapshot generated from the private canonical database.
-- `.github/workflows/pages.yml` — GitHub Pages deployment on every public-repository update.
+`Obefree/GrantOps` (private source of truth) → `scripts/export_public.py` → `data/public.json` in `Obefree/GrantOps-Public` → GitHub Pages.
 
-The site currently provides:
+No server, database, Vercel or paid hosting is required.
+
+## Public site
+
+The site contains:
 
 - **Overview** — priority funding routes and technical-partner positioning;
 - **Opportunities** — searchable/filterable grants, calls, partner searches and cascade routes;
-- **IT company routes** — decision support for Digital Europe, Horizon Europe, Eurostars, Portugal 2030/COMPETE, EdTech, EIC and Erasmus+;
+- **IT company routes** — Digital Europe, Horizon Europe, Eurostars, Portugal 2030/COMPETE, EdTech, EIC and Erasmus+ routes;
 - **Partners** — organisation-level collaboration pipeline and next actions;
 - **Outreach** — sanitized organisation-level communication history;
-- **Deadlines** — grant deadlines and dated partnership follow-ups in one timeline.
+- **Deadlines** — grant deadlines and dated partnership follow-ups.
 
-Private contact IDs, personal contact details, owners, document IDs and internal notes are not exported.
+Private contact IDs, personal contact details, owners, application/document IDs and internal notes are excluded by the export script.
 
-## Automatic private → public sync
+## Automatic sync
 
-The private `Obefree/GrantOps` repository remains the source of truth. Its `scripts/export_public.py` defines the public export policy.
+The private repository contains `.github/workflows/sync-public.yml`.
 
-A scheduled GrantOps Public Sync reads the private canonical records and updates `data/public.json` in this public repository when public-safe data changes. This works without making the private repository public.
+On relevant changes to `main`, it:
 
-The private repository also contains `.github/workflows/sync-public.yml` as an optional Git-native cross-repository sync. If a fine-grained token named `GRANTOPS_PUBLIC_TOKEN` is configured later, that workflow can push the export immediately after private data changes. Without that token it safely skips the cross-repository push; the scheduled sync still maintains the site.
+1. runs `scripts/export_public.py`;
+2. validates the generated JSON;
+3. writes only `public-export/public.json` to `GrantOps-Public/data/public.json`;
+4. commits the snapshot only when it changed.
+
+For cross-repository write access, add one fine-grained GitHub token to the private `Obefree/GrantOps` repository as the Actions secret:
+
+`GRANTOPS_PUBLIC_TOKEN`
+
+The token only needs **Contents: Read and write** permission for `Obefree/GrantOps-Public`.
+
+A temporary scheduled GrantOps Public Sync can maintain the public snapshot until this repository secret is configured; after the Git-native sync is active, that scheduled fallback can be disabled.
 
 ## GitHub Pages
 
-The repository includes a GitHub Actions Pages deployment workflow. Pages must use **GitHub Actions** as the publishing source.
+`.github/workflows/pages.yml` validates `data/public.json` and deploys the static repository with the official GitHub Pages actions.
 
-Intended public URL:
+Set **Settings → Pages → Build and deployment → Source** to **GitHub Actions** once.
+
+Expected URL:
 
 `https://obefree.github.io/GrantOps-Public/`
