@@ -1,0 +1,41 @@
+name: Add partner menu link
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/add-partner-menu.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-menu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add Partner requirements to main navigation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          old_css = '.nav button{border:1px solid var(--line);background:#fff;color:#475467;border-radius:10px;padding:10px 13px;cursor:pointer;font:inherit}'
+          new_css = '.nav button,.nav a.menu-link{border:1px solid var(--line);background:#fff;color:#475467;border-radius:10px;padding:10px 13px;cursor:pointer;font:inherit;text-decoration:none;display:inline-flex;align-items:center}'
+          if old_css in s:
+              s = s.replace(old_css, new_css, 1)
+          old_nav = '<button data-view="it-routes">IT company routes</button><button data-view="partners">Partners</button>'
+          new_nav = '<button data-view="it-routes">IT company routes</button><a class="menu-link" href="partner/">Partner requirements</a><button data-view="partners">Partners</button>'
+          if old_nav not in s:
+              raise SystemExit('Expected navigation marker not found')
+          s = s.replace(old_nav, new_nav, 1)
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit menu update
+        run: |
+          git config user.name "GrantOps Site"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Add Partner requirements to main menu"
+          git push
