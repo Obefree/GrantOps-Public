@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-29T08:01:12+00:00",
-    "source_updated_at": "2026-08-29",
+    "generated_at": "2026-08-30T06:08:07+00:00",
+    "source_updated_at": "2026-08-30",
     "outreach_updated_at": "2026-08-11T10:14:12+02:00",
     "source": "Obefree/GrantOps private canonical database",
     "export_policy": "Public operational fields only; private contact IDs, personal contact details, owners, document IDs and internal notes are excluded."
@@ -336,7 +336,7 @@
       "funder_organisation_id": "ORG-EU-EFCSN",
       "programme": "FACTEUR / EFCSN",
       "opportunity_type": "cascade_grant",
-      "status": "partner_route",
+      "status": "qualified",
       "opening_date": "2026-07-29",
       "deadline": "2026-09-06",
       "funding_min_eur": "",
@@ -357,6 +357,34 @@
       "verification_status": "verified_official",
       "next_action": "Immediately identify whether an existing fact-checking partner is EFCSN-certified and already applying; offer a narrowly scoped database/API/metadata integration contribution that stays within the 15% subcontracting ceiling. Do not attempt a standalone CCR application.",
       "next_action_date": "2026-08-31"
+    },
+    {
+      "opportunity_id": "OPP-EU-EUREKA-EIC-FASTTRACK-C5-2026",
+      "name": "Fast Track to the EIC Accelerator – Call 5",
+      "funder_organisation_id": "ORG-EU-EIC",
+      "programme": "Eureka / EIC Accelerator",
+      "opportunity_type": "accelerator_fast_track",
+      "status": "screening",
+      "opening_date": "2026-08-31",
+      "deadline": "2026-09-25",
+      "funding_min_eur": "",
+      "funding_max_eur": "",
+      "cofunding_rate": "access_to_EIC_full_proposal",
+      "geographic_scope": "EU and associated Eureka countries",
+      "eligible_countries": "EU Member States; Iceland; Israel; Norway; Switzerland; Türkiye; United Kingdom",
+      "eligible_entity_types": "single startup, SME or small mid-cap meeting the Eurostars-3 completion criterion",
+      "consortium_required": "no",
+      "minimum_partners": "1",
+      "topic_tags": "EIC,deep_tech,scaleup,Eurostars,AI,software,commercialisation,TRL6",
+      "language_environments": "English",
+      "eligibility_summary": "Call 5 opens 31 Aug 2026 at 09:00 CEST and closes 25 Sep 2026 at 14:00 CEST. Applicant must be a single startup, SME or small mid-cap established in an eligible country; must have successfully completed a Eurostars-3 project after 25 Sep 2024 or be participating in a Eurostars-3 project finishing before 25 Mar 2027; the business concept must result from that Eurostars-3 project; applicant must own or have rights to the underlying IP. Application has six sections plus an English pitch deck of up to 10 slides. Up to 11 applicants can receive a GO to submit directly at the EIC Accelerator full-proposal stage. The Fast Track itself is an access route, not a standalone grant award. Evaluation covers deep-tech/breakthrough nature, completed TRL 5/current TRL 6, IP strategy and market opportunity.",
+      "project_fit": "Strategically relevant as a downstream route if CCR or a broader AI/data product is first funded through Eurostars-3 and reaches TRL 6. Not currently actionable unless the applicant company already has a qualifying Eurostars-3 project.",
+      "recommended_role": "future single-company EIC Accelerator applicant after qualifying Eurostars-3 project",
+      "source_url": "https://www.eurekanetwork.org/programmes-and-calls/fast-track-to-the-eic-accelerator-call-5/",
+      "last_verified_at": "2026-08-30",
+      "verification_status": "verified_official",
+      "next_action": "Check company history for any qualifying Eurostars-3 project; if none, keep as a downstream design constraint for Eurostars proposals rather than spending application effort on Call 5.",
+      "next_action_date": "2026-09-02"
     },
     {
       "opportunity_id": "OPP-EU-EFCSN-EMERGENCY-SUPPORT-2026",
