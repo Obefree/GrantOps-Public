@@ -1,0 +1,49 @@
+name: Patch latest GrantOps public-safe sync
+
+on:
+  push:
+    paths:
+      - '.github/workflows/patch-fasttrack-sync.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch current canonical public-safe opportunity fields
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/public.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          oid = 'OPP-EU-EUREKA-EIC-FASTTRACK-C5-2026'
+          found = False
+          for opp in data.get('opportunities', []):
+              if opp.get('opportunity_id') == oid:
+                  opp['eligibility_summary'] = "Call 5 opened 31 Aug 2026 at 09:00 CEST and closes 25 Sep 2026 at 14:00 CEST. Applicant must be a single startup, SME or small mid-cap established in an eligible country; must have successfully completed a Eurostars-3 project after 25 Sep 2024 or be participating in a Eurostars-3 project finishing before 25 Mar 2027; the business concept must result from that Eurostars-3 project; applicant must own or have rights to the underlying IP. Application has six sections plus an English pitch deck of up to 10 slides. Up to 11 applicants can receive a GO to submit directly at the EIC Accelerator full-proposal stage. The Fast Track itself is an access route, not a standalone grant award. Evaluation covers deep-tech/breakthrough nature, completed TRL 5/current TRL 6, IP strategy and market opportunity. Eureka is holding an applicant briefing webinar on 31 Aug 2026."
+                  opp['last_verified_at'] = '2026-08-31'
+                  found = True
+                  break
+          if not found:
+              raise SystemExit(f'{oid} not found')
+          meta = data.setdefault('meta', {})
+          meta['generated_at'] = '2026-08-31T05:51:37+00:00'
+          meta['source_updated_at'] = max(meta.get('source_updated_at', ''), '2026-08-31')
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+      - name: Commit if changed
+        run: |
+          git config user.name 'GrantOps Sync'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/public.json
+          if git diff --cached --quiet; then
+            echo 'No public-safe change'
+            exit 0
+          fi
+          git commit -m 'Sync Fast Track Call 5 verification'
+          git push
