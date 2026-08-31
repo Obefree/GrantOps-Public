@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-31T21:15:42+00:00",
+    "generated_at": "2026-08-31T21:17:54+00:00",
     "source_updated_at": "2026-08-31",
     "outreach_updated_at": "2026-08-31T10:37:58+00:00",
     "source": "Obefree/GrantOps private canonical database",
@@ -2124,7 +2124,7 @@
       "project_id": "PRJ-CCR",
       "organisation_id": "ORG-AL-I4A",
       "opportunity_id": "DIGITAL-2026-SKILLS-10-EDTECH-I4A",
-      "status": "meeting_scheduled",
+      "status": "active_discussion",
       "priority": "P1",
       "last_signal": "Innovation4Albania expressed interest in current or future collaboration and confirmed a call for 1 September 2026 at 13:00 CEST.",
       "next_action": "Hold discovery call; clarify current DIGITAL-2026-SKILLS-10-EDTECH consortium status and map broader EU or national collaboration routes.",
