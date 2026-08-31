@@ -1,0 +1,38 @@
+name: One-time I4A route status correction
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/one-time-i4a-route-status.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Align route status with canonical export
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone
+          p = Path('data/public.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          for route in data.get('routes', []):
+              if route.get('route_id') == 'RTE-CCR-AL-I4A-20260831':
+                  route['status'] = 'active_discussion'
+          data['meta']['generated_at'] = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+      - name: Commit correction
+        run: |
+          git config user.name 'GrantOps Sync'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/public.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Align Innovation4Albania route status with canonical data'
+          git push
