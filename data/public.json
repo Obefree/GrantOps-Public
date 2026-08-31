@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-30T13:10:48+00:00",
-    "source_updated_at": "2026-08-30",
+    "generated_at": "2026-08-31T05:51:37+00:00",
+    "source_updated_at": "2026-08-31",
     "outreach_updated_at": "2026-08-11T10:14:12+02:00",
     "source": "Obefree/GrantOps private canonical database",
     "export_policy": "Public operational fields only; private contact IDs, personal contact details, owners, document IDs and internal notes are excluded."
@@ -377,11 +377,11 @@
       "minimum_partners": "1",
       "topic_tags": "EIC,deep_tech,scaleup,Eurostars,AI,software,commercialisation,TRL6",
       "language_environments": "English",
-      "eligibility_summary": "Call 5 opens 31 Aug 2026 at 09:00 CEST and closes 25 Sep 2026 at 14:00 CEST. Applicant must be a single startup, SME or small mid-cap established in an eligible country; must have successfully completed a Eurostars-3 project after 25 Sep 2024 or be participating in a Eurostars-3 project finishing before 25 Mar 2027; the business concept must result from that Eurostars-3 project; applicant must own or have rights to the underlying IP. Application has six sections plus an English pitch deck of up to 10 slides. Up to 11 applicants can receive a GO to submit directly at the EIC Accelerator full-proposal stage. The Fast Track itself is an access route, not a standalone grant award. Evaluation covers deep-tech/breakthrough nature, completed TRL 5/current TRL 6, IP strategy and market opportunity.",
+      "eligibility_summary": "Call 5 opened 31 Aug 2026 at 09:00 CEST and closes 25 Sep 2026 at 14:00 CEST. Applicant must be a single startup, SME or small mid-cap established in an eligible country; must have successfully completed a Eurostars-3 project after 25 Sep 2024 or be participating in a Eurostars-3 project finishing before 25 Mar 2027; the business concept must result from that Eurostars-3 project; applicant must own or have rights to the underlying IP. Application has six sections plus an English pitch deck of up to 10 slides. Up to 11 applicants can receive a GO to submit directly at the EIC Accelerator full-proposal stage. The Fast Track itself is an access route, not a standalone grant award. Evaluation covers deep-tech/breakthrough nature, completed TRL 5/current TRL 6, IP strategy and market opportunity. Eureka is holding an applicant briefing webinar on 31 Aug 2026.",
       "project_fit": "Strategically relevant as a downstream route if CCR or a broader AI/data product is first funded through Eurostars-3 and reaches TRL 6. Not currently actionable unless the applicant company already has a qualifying Eurostars-3 project.",
       "recommended_role": "future single-company EIC Accelerator applicant after qualifying Eurostars-3 project",
       "source_url": "https://www.eurekanetwork.org/programmes-and-calls/fast-track-to-the-eic-accelerator-call-5/",
-      "last_verified_at": "2026-08-30",
+      "last_verified_at": "2026-08-31",
       "verification_status": "verified_official",
       "next_action": "Check company history for any qualifying Eurostars-3 project; if none, keep as a downstream design constraint for Eurostars proposals rather than spending application effort on Call 5.",
       "next_action_date": "2026-09-02"
