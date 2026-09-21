@@ -14,6 +14,7 @@ The site contains:
 
 - **Overview** — priority funding routes and technical-partner positioning;
 - **Opportunities** — searchable/filterable grants, calls, partner searches and cascade routes;
+- **Mini grants** — a separate low-friction pipeline focused on small grants, vouchers and cascade opportunities, with Slovenia prioritised: `https://obefree.github.io/GrantOps-Public/mini-grants/`;
 - **IT company routes** — Digital Europe, Horizon Europe, Eurostars, Portugal 2030/COMPETE, EdTech, EIC and Erasmus+ routes;
 - **Partners** — organisation-level collaboration pipeline and next actions;
 - **Outreach** — sanitized organisation-level communication history;
