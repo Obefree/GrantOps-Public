@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#146b4a" />
+  <title>Slovenian App — публичная веб-демо копия</title>
+  <meta name="description" content="Интерактивная веб-демо копия приложения для изучения словенского русскоговорящими." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="desktop-nav" aria-label="Основная навигация">
+      <div class="brand-mini">🇸🇮 <span>Slovenian App</span></div>
+      <button class="nav-btn active" data-section="lessons">📚 <span>Уроки</span></button>
+      <button class="nav-btn" data-section="dictionary">🔎 <span>Словарь</span></button>
+      <button class="nav-btn" data-section="grammar">🧩 <span>Грамматика</span></button>
+      <button class="nav-btn" data-section="mistakes">🧠 <span>Ошибки</span></button>
+      <button class="nav-btn" data-section="ai">✨ <span>ИИ-помощник</span></button>
+    </aside>
+
+    <main class="main">
+      <header class="hero">
+        <div>
+          <div class="badge">Публичная веб-демо копия</div>
+          <h1>Slovenian App</h1>
+          <p class="subtitle">Словенский для русскоговорящих: A0 → B2</p>
+        </div>
+        <div class="hero-mark" aria-hidden="true">SLO</div>
+      </header>
+
+      <section class="overview card">
+        <div>
+          <p class="eyebrow">Что уже есть в мобильном приложении</p>
+          <h2>18 тем уроков · 231 упражнение · 213 слов A0</h2>
+          <p>Эта страница — отдельная публичная веб-демо копия. Здесь интерактивно показаны ключевые механики и темы, но демо-контент не заявляется как буквальная выгрузка всех 231 упражнения и 213 слов мобильной версии.</p>
+        </div>
+        <div class="stats">
+          <div><b>6</b><span>типов упражнений</span></div>
+          <div><b>18</b><span>тем уроков</span></div>
+          <div><b>A0→B2</b><span>направление курса</span></div>
+        </div>
+      </section>
+
+      <div id="app-view" aria-live="polite"></div>
+    </main>
+
+    <nav class="mobile-nav" aria-label="Основная навигация">
+      <button class="nav-btn active" data-section="lessons"><span class="ico">📚</span><span>Уроки</span></button>
+      <button class="nav-btn" data-section="dictionary"><span class="ico">🔎</span><span>Словарь</span></button>
+      <button class="nav-btn" data-section="grammar"><span class="ico">🧩</span><span>Грамматика</span></button>
+      <button class="nav-btn" data-section="mistakes"><span class="ico">🧠</span><span>Ошибки</span></button>
+      <button class="nav-btn" data-section="ai"><span class="ico">✨</span><span>ИИ</span></button>
+    </nav>
+  </div>
+
+  <dialog id="lesson-dialog" class="dialog">
+    <div id="lesson-player"></div>
+  </dialog>
+
+  <dialog id="word-dialog" class="dialog small-dialog">
+    <div id="word-detail"></div>
+  </dialog>
+
+  <script src="./app.js"></script>
+</body>
+</html>
