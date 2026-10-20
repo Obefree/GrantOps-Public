@@ -1,28 +1,347 @@
 {
-  "generated_at":"2026-10-04T19:08:00+02:00",
-  "opportunities":[
-    {"opportunity_id":"OPP-EU-EUROSTARS-CALL11-2026","status":"closed","deadline":"2026-09-10","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-EU-AUDIO-REPORTING-2026","status":"closed","deadline":"2026-09-07","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-EU-EIT-CPD-2026","status":"closed","deadline":"2026-09-14","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-EU-SMARTERA-FOLLOWERS-2026","status":"closed","deadline":"2026-09-15","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-EU-RIVCIRCULAR-2026","status":"closed","deadline":"2026-09-17","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-EU-EIT-NEB-SKILLS-2026","status":"closed","deadline":"2026-09-11","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-EU-HORIZON-DEM10-2026","status":"closed","deadline":"2026-09-23","last_verified_at":"2026-10-04","verification_status":"deadline_passed","project_fit":"Closed for this cycle; retain Gazi/FBK and other coordinator contacts for future collaboration.","next_action":"Archive this call; revisit coordinator relationships after award results or for future calls."},
-    {"opportunity_id":"OPP-EU-HORIZON-DEM08-2026","status":"closed","deadline":"2026-09-23","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-EU-HORIZON-DEM07-2026","status":"closed","deadline":"2026-09-23","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-EU-HORIZON-DEM09-2026","status":"closed","deadline":"2026-09-23","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-EU-CERV-CHARTER-2026","status":"closed","deadline":"2026-09-15","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-EU-CERV-TOWN-TWINNING-2026","status":"closed","deadline":"2026-09-23","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-EU-DIGITAL-INFO-INTEGRITY-2026","status":"closed","deadline":"2026-10-01","last_verified_at":"2026-10-04","verification_status":"deadline_passed","project_fit":"Main call closed. The downstream FSTP/cascade funding remains a priority to track.","recommended_role":"future FSTP recipient","next_action":"Track selected consortium and its downstream open calls."},
-    {"opportunity_id":"DIGITAL-2026-SKILLS-10-EDTECH","status":"closed","deadline":"2026-10-01","last_verified_at":"2026-10-04","verification_status":"deadline_passed","project_fit":"Main accelerator consortium call closed; future downstream startup/SME calls remain relevant.","recommended_role":"future downstream applicant","next_action":"Track selected EdTech accelerator and its downstream calls."},
-    {"opportunity_id":"DIGITAL-2026-SKILLS-10-EDTECH-LSSE","status":"closed","deadline":"2026-10-01","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"DIGITAL-2026-SKILLS-10-EDTECH-INNOVA","status":"closed","deadline":"2026-10-01","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"DIGITAL-2026-SKILLS-10-EDTECH-I4A","status":"closed","deadline":"2026-10-01","last_verified_at":"2026-10-04","verification_status":"deadline_passed","next_action":"Keep Innovation4Albania as a future collaboration contact."},
-    {"opportunity_id":"DIGITAL-2026-SKILLS-10-EDTECH-DSJP","status":"closed","deadline":"2026-10-01","last_verified_at":"2026-10-04","verification_status":"deadline_passed"},
-    {"opportunity_id":"OPP-IE-CNAM-ML-INNOVATION-2026","name":"Media Literacy Countering Disinformation Innovation Fund","programme":"Coimisiún na Meán","status":"partner_search","deadline":"2026-10-09","funding_max_eur":"25000","geographic_scope":"Ireland","consortium_required":"yes","minimum_partners":"2","last_verified_at":"2026-10-04","verification_status":"verified_official","next_action":"Only pursue a warm Irish lead able to move immediately before 9 Oct noon."},
-    {"opportunity_id":"OPP-EU-EFCSN-EMERGENCY-2026","status":"watch","deadline":"2028-04-30","funding_min_eur":"1000","funding_max_eur":"3500","last_verified_at":"2026-10-04","verification_status":"verified_official","next_action":"Keep ready for an eligible fact-checking partner and a qualifying crisis use case."},
-    {"opportunity_id":"OPP-EU-EFCSN-DATABASE-2026","status":"closed","deadline":"2026-09-06","last_verified_at":"2026-10-04","verification_status":"deadline_passed","next_action":"Track funded organisations for technical subcontract opportunities."},
-    {"opportunity_id":"OPP-EU-EFCSN-PROTECTION-2026","status":"watch","last_verified_at":"2026-10-04","verification_status":"verified_official"},
-    {"opportunity_id":"OPP-EU-CERV-CIVIL-SOCIETY-FSTP-2026","name":"CERV Union Values civil-society financial support to third parties","programme":"CERV","status":"watch","opening_date":"2026-10-20","topic_tags":"civil_society,Union_values,FSTP,regranting,democracy","project_fit":"High strategic value because selected intermediaries may later issue smaller cascade grants.","recommended_role":"future FSTP recipient or technology partner","last_verified_at":"2026-10-04","verification_status":"watch","next_action":"Monitor publication around 20 Oct and map likely regranting intermediaries."}
+  "generated_at": "2026-10-20T19:25:00+02:00",
+  "opportunities": [
+    {
+      "opportunity_id": "OPP-EU-EUROSTARS-CALL11-2026",
+      "status": "closed",
+      "deadline": "2026-09-10",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-EU-AUDIO-REPORTING-2026",
+      "status": "closed",
+      "deadline": "2026-09-07",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-EU-EIT-CPD-2026",
+      "status": "closed",
+      "deadline": "2026-09-14",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-EU-SMARTERA-FOLLOWERS-2026",
+      "status": "closed",
+      "deadline": "2026-09-15",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-EU-RIVCIRCULAR-2026",
+      "status": "closed",
+      "deadline": "2026-09-17",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-EU-EIT-NEB-SKILLS-2026",
+      "status": "closed",
+      "deadline": "2026-09-11",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-EU-HORIZON-DEM10-2026",
+      "status": "closed",
+      "deadline": "2026-09-23",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed",
+      "project_fit": "Closed for this cycle; retain Gazi/FBK and other coordinator contacts for future collaboration.",
+      "next_action": "Archive this call; revisit coordinator relationships after award results or for future calls."
+    },
+    {
+      "opportunity_id": "OPP-EU-HORIZON-DEM08-2026",
+      "status": "closed",
+      "deadline": "2026-09-23",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-EU-HORIZON-DEM07-2026",
+      "status": "closed",
+      "deadline": "2026-09-23",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-EU-HORIZON-DEM09-2026",
+      "status": "closed",
+      "deadline": "2026-09-23",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-EU-CERV-CHARTER-2026",
+      "status": "closed",
+      "deadline": "2026-09-15",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-EU-CERV-TOWN-TWINNING-2026",
+      "status": "closed",
+      "deadline": "2026-09-23",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-EU-DIGITAL-INFO-INTEGRITY-2026",
+      "status": "closed",
+      "deadline": "2026-10-01",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed",
+      "project_fit": "Main call closed. The downstream FSTP/cascade funding remains a priority to track.",
+      "recommended_role": "future FSTP recipient",
+      "next_action": "Track selected consortium and its downstream open calls."
+    },
+    {
+      "opportunity_id": "DIGITAL-2026-SKILLS-10-EDTECH",
+      "status": "closed",
+      "deadline": "2026-10-01",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed",
+      "project_fit": "Main accelerator consortium call closed; future downstream startup/SME calls remain relevant.",
+      "recommended_role": "future downstream applicant",
+      "next_action": "Track selected EdTech accelerator and its downstream calls."
+    },
+    {
+      "opportunity_id": "DIGITAL-2026-SKILLS-10-EDTECH-LSSE",
+      "status": "closed",
+      "deadline": "2026-10-01",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "DIGITAL-2026-SKILLS-10-EDTECH-INNOVA",
+      "status": "closed",
+      "deadline": "2026-10-01",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "DIGITAL-2026-SKILLS-10-EDTECH-I4A",
+      "status": "closed",
+      "deadline": "2026-10-01",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed",
+      "next_action": "Keep Innovation4Albania as a future collaboration contact."
+    },
+    {
+      "opportunity_id": "DIGITAL-2026-SKILLS-10-EDTECH-DSJP",
+      "status": "closed",
+      "deadline": "2026-10-01",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed"
+    },
+    {
+      "opportunity_id": "OPP-IE-CNAM-ML-INNOVATION-2026",
+      "name": "Media Literacy Countering Disinformation Innovation Fund",
+      "programme": "Coimisiún na Meán",
+      "status": "closed",
+      "deadline": "2026-10-09",
+      "funding_max_eur": "25000",
+      "geographic_scope": "Ireland",
+      "consortium_required": "yes",
+      "minimum_partners": "2",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "deadline_passed",
+      "next_action": "Archive this cycle; retain useful Irish contacts."
+    },
+    {
+      "opportunity_id": "OPP-EU-EFCSN-EMERGENCY-2026",
+      "status": "watch",
+      "deadline": "2028-04-30",
+      "funding_min_eur": "1000",
+      "funding_max_eur": "3500",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "verified_official",
+      "next_action": "Keep ready for an eligible fact-checking partner and a qualifying crisis use case."
+    },
+    {
+      "opportunity_id": "OPP-EU-EFCSN-DATABASE-2026",
+      "status": "closed",
+      "deadline": "2026-09-06",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "deadline_passed",
+      "next_action": "Track funded organisations for technical subcontract opportunities."
+    },
+    {
+      "opportunity_id": "OPP-EU-EFCSN-PROTECTION-2026",
+      "status": "watch",
+      "last_verified_at": "2026-10-04",
+      "verification_status": "verified_official"
+    },
+    {
+      "opportunity_id": "OPP-EU-CERV-CIVIL-SOCIETY-FSTP-2026",
+      "name": "CERV Union Values 2026 – civil-society support and regranting route",
+      "programme": "CERV",
+      "status": "watch",
+      "opening_date": "2026-10-27",
+      "topic_tags": "civil_society,Union_values,FSTP,regranting,democracy",
+      "project_fit": "Strategic partner / downstream-regrant route; final call opens 27 Oct.",
+      "recommended_role": "technology partner or future downstream/FSTP recipient",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official_planning",
+      "next_action": "Read the published call on 27 Oct and map likely regranting intermediaries.",
+      "deadline": "2027-02-24"
+    },
+    {
+      "opportunity_id": "OPP-EUREKA-CELTIC-AUTUMN-2026",
+      "name": "CELTIC-NEXT Autumn Call 2026",
+      "programme": "Eureka Clusters / CELTIC-NEXT",
+      "status": "deadline_imminent",
+      "deadline": "2026-10-26",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official",
+      "project_fit": "Only realistic now through an already-forming consortium with a genuine telecom/trusted-services/cybersecurity use case.",
+      "recommended_role": "technical software/AI/data partner",
+      "next_action": "Fast go/no-go by 22 Oct; skip if no warm consortium."
+    },
+    {
+      "opportunity_id": "OPP-EUREKA-ITEA-2026",
+      "name": "ITEA Call 2026 – software innovation",
+      "programme": "Eureka Clusters / ITEA",
+      "status": "consortium_search",
+      "deadline": "2026-11-02",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official",
+      "project_fit": "Strong software/AI/data route. ITEA reports that several current Project Outlines are still seeking expertise.",
+      "recommended_role": "software/AI/data technical partner",
+      "next_action": "Review partner requests and contact 5–10 matching existing consortia by 22 Oct."
+    },
+    {
+      "opportunity_id": "OPP-EUREKA-INNOWWIDE-5-2026",
+      "name": "Innowwide Call 5 – market feasibility projects",
+      "programme": "Eureka / Innowwide",
+      "status": "qualified",
+      "opening_date": "2026-10-01",
+      "deadline": "2026-12-01",
+      "funding_max_eur": "60000",
+      "cofunding_rate": "70%",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official",
+      "project_fit": "Strong single-SME route if the exact eligible entity and one non-European target market/local counterpart are confirmed.",
+      "recommended_role": "single innovative SME applicant",
+      "next_action": "Entity + target-market go/no-go by 27 Oct."
+    },
+    {
+      "opportunity_id": "OPP-SI-SPS-V9-2026",
+      "name": "V9 – Vavčer za prototipiranje",
+      "programme": "Slovenski podjetniški sklad (SPS)",
+      "status": "screening",
+      "opening_date": "2026-10-16",
+      "deadline": "2028-03-31",
+      "funding_min_eur": "500",
+      "funding_max_eur": "5000",
+      "cofunding_rate": "60%",
+      "geographic_scope": "Slovenia",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official",
+      "project_fit": "Best current small Slovenian route for a new digital prototype, subject to startup-register, employee and diagnostic-interview eligibility.",
+      "recommended_role": "Slovenian innovative startup SME applicant",
+      "next_action": "Check the entity gate with RA Savinja / Inkubator before any prototype costs."
+    },
+    {
+      "opportunity_id": "OPP-SI-SPS-V2-2026",
+      "name": "V2 – IP voucher",
+      "programme": "SPS",
+      "status": "screening",
+      "deadline": "2028-03-31",
+      "funding_min_eur": "500",
+      "funding_max_eur": "5000",
+      "cofunding_rate": "60%",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official",
+      "next_action": "Use after deciding which brand/design/patent should be owned by the Slovenian entity."
+    },
+    {
+      "opportunity_id": "OPP-SI-SPS-V1-2026",
+      "name": "V1 – business delegation voucher",
+      "programme": "SPS",
+      "status": "watch",
+      "deadline": "2028-03-31",
+      "funding_min_eur": "300",
+      "funding_max_eur": "2000",
+      "cofunding_rate": "60%",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official",
+      "next_action": "Use only for a concrete relevant outbound delegation."
+    },
+    {
+      "opportunity_id": "OPP-SI-SPS-V10-2026",
+      "name": "V10 – certification voucher",
+      "programme": "SPS",
+      "status": "paused",
+      "deadline": "2028-03-31",
+      "funding_min_eur": "1000",
+      "funding_max_eur": "9999.99",
+      "cofunding_rate": "60%",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official_paused",
+      "next_action": "Monitor reopening; intake suspended since 18 Sep."
+    },
+    {
+      "opportunity_id": "OPP-SI-SPS-V11-2026",
+      "name": "V11 – cybersecurity voucher",
+      "programme": "SPS",
+      "status": "watch",
+      "funding_max_eur": "9999.99",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "official_plan_only",
+      "next_action": "No live 2026 call verified yet; ask local advisers about publication timing."
+    },
+    {
+      "opportunity_id": "OPP-EU-NLNET-RESTACK-2026",
+      "name": "NLnet Restack",
+      "programme": "NLnet / Open Internet Stack",
+      "status": "screening",
+      "deadline": "2026-11-03",
+      "funding_min_eur": "5000",
+      "funding_max_eur": "50000",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official",
+      "project_fit": "Conditional open-source route; strict GenAI-policy check required first.",
+      "next_action": "Go/no-go by 22 Oct after policy audit."
+    },
+    {
+      "opportunity_id": "OPP-EU-NLNET-CODESUPPLY-2026",
+      "name": "NLnet CodeSupply",
+      "programme": "NLnet / Open Internet Stack",
+      "status": "screening",
+      "deadline": "2026-11-03",
+      "funding_min_eur": "5000",
+      "funding_max_eur": "50000",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official",
+      "project_fit": "Only for a genuine open-source supply-chain/security/metadata component.",
+      "next_action": "Skip unless a clear technical component emerges."
+    },
+    {
+      "opportunity_id": "OPP-EU-CERV-REM-2026",
+      "name": "CERV Remembrance 2026",
+      "programme": "CERV",
+      "status": "watch",
+      "opening_date": "2026-10-21",
+      "deadline": "2027-02-24",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official_planning",
+      "project_fit": "Low-priority technology-partner route with a strong content-led NGO/academic consortium.",
+      "next_action": "Screen final topic text once after opening."
+    },
+    {
+      "opportunity_id": "OPP-EU-EUROSTARS-CALL12-2027",
+      "name": "Eurostars Call 12",
+      "programme": "Eurostars / Eureka",
+      "status": "watch",
+      "opening_date": "2026-12-17",
+      "deadline": "2027-03-04",
+      "last_verified_at": "2026-10-20",
+      "verification_status": "verified_official_schedule",
+      "project_fit": "Main medium-term international R&D route; enough time to solve entity and partner structure properly.",
+      "next_action": "Use November to confirm the SME route and shortlist 2–3 R&D partners."
+    }
   ]
 }
