@@ -14,7 +14,7 @@ The site contains:
 
 - **Overview** — priority funding routes and technical-partner positioning;
 - **Opportunities** — searchable/filterable grants, calls, partner searches and cascade routes;
-- **Media literacy research** — Faking News / CCR educational-game studies, Creative Europe funded-project comparisons and paid collaboration possibilities: `https://obefree.github.io/GrantOps-Public/media-literacy/`;
+- **Faking News coordinator pipeline** — curated public-safe shortlist of 11 potential Erasmus+ and media literacy organisations with verified project roles, outreach status, follow-up dates and corrections; `https://obefree.github.io/GrantOps-Public/coordinators/` (snapshot `data/faking-news-coordinators.json`, 2026-10-23; distinct from the canonical GrantOps private data).\n- **Media literacy research** — Faking News / CCR educational-game studies, Creative Europe funded-project comparisons and paid collaboration possibilities: `https://obefree.github.io/GrantOps-Public/media-literacy/`;
 - **Mini grants** — a separate low-friction pipeline focused on small grants, vouchers and cascade opportunities, with Slovenia prioritised: `https://obefree.github.io/GrantOps-Public/mini-grants/`;
 - **IT company routes** — Digital Europe, Horizon Europe, Eurostars, Portugal 2030/COMPETE, EdTech, EIC and Erasmus+ routes;
 - **Partners** — organisation-level collaboration pipeline and next actions;
