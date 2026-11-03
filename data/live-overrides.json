@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T19:25:00+02:00",
+  "generated_at": "2026-11-03T10:55:00+01:00",
   "opportunities": [
     {
       "opportunity_id": "OPP-EU-EUROSTARS-CALL11-2026",
@@ -181,36 +181,36 @@
       "status": "watch",
       "opening_date": "2026-10-27",
       "topic_tags": "civil_society,Union_values,FSTP,regranting,democracy",
-      "project_fit": "Strategic partner / downstream-regrant route; final call opens 27 Oct.",
+      "project_fit": "Direct route is for experienced civil-society intermediaries; strategic value is future downstream grants/technical delivery.",
       "recommended_role": "technology partner or future downstream/FSTP recipient",
-      "last_verified_at": "2026-10-20",
-      "verification_status": "verified_official_planning",
-      "next_action": "Read the published call on 27 Oct and map likely regranting intermediaries.",
+      "last_verified_at": "2026-11-03",
+      "verification_status": "verified_open",
+      "next_action": "Map likely funded intermediaries and future regrant routes.",
       "deadline": "2027-02-24"
     },
     {
       "opportunity_id": "OPP-EUREKA-CELTIC-AUTUMN-2026",
       "name": "CELTIC-NEXT Autumn Call 2026",
       "programme": "Eureka Clusters / CELTIC-NEXT",
-      "status": "deadline_imminent",
+      "status": "closed",
       "deadline": "2026-10-26",
-      "last_verified_at": "2026-10-20",
-      "verification_status": "verified_official",
+      "last_verified_at": "2026-11-03",
+      "verification_status": "deadline_passed",
       "project_fit": "Only realistic now through an already-forming consortium with a genuine telecom/trusted-services/cybersecurity use case.",
       "recommended_role": "technical software/AI/data partner",
-      "next_action": "Fast go/no-go by 22 Oct; skip if no warm consortium."
+      "next_action": "Archive this cycle."
     },
     {
       "opportunity_id": "OPP-EUREKA-ITEA-2026",
       "name": "ITEA Call 2026 – software innovation",
       "programme": "Eureka Clusters / ITEA",
-      "status": "consortium_search",
+      "status": "closed",
       "deadline": "2026-11-02",
-      "last_verified_at": "2026-10-20",
-      "verification_status": "verified_official",
+      "last_verified_at": "2026-11-03",
+      "verification_status": "deadline_passed",
       "project_fit": "Strong software/AI/data route. ITEA reports that several current Project Outlines are still seeking expertise.",
       "recommended_role": "software/AI/data technical partner",
-      "next_action": "Review partner requests and contact 5–10 matching existing consortia by 22 Oct."
+      "next_action": "Archive this cycle; preserve useful contacts."
     },
     {
       "opportunity_id": "OPP-EUREKA-INNOWWIDE-5-2026",
@@ -221,11 +221,12 @@
       "deadline": "2026-12-01",
       "funding_max_eur": "60000",
       "cofunding_rate": "70%",
-      "last_verified_at": "2026-10-20",
+      "last_verified_at": "2026-11-03",
       "verification_status": "verified_official",
-      "project_fit": "Strong single-SME route if the exact eligible entity and one non-European target market/local counterpart are confirmed.",
+      "project_fit": "Strong single-SME market-validation route if applicant entity and one non-European target market/local counterpart are confirmed.",
       "recommended_role": "single innovative SME applicant",
-      "next_action": "Entity + target-market go/no-go by 27 Oct."
+      "next_action": "Confirm applicant, target country and local counterpart by 7 Nov.",
+      "funding_min_eur": "60000"
     },
     {
       "opportunity_id": "OPP-SI-SPS-V9-2026",
@@ -238,11 +239,11 @@
       "funding_max_eur": "5000",
       "cofunding_rate": "60%",
       "geographic_scope": "Slovenia",
-      "last_verified_at": "2026-10-20",
+      "last_verified_at": "2026-11-03",
       "verification_status": "verified_official",
-      "project_fit": "Best current small Slovenian route for a new digital prototype, subject to startup-register, employee and diagnostic-interview eligibility.",
+      "project_fit": "Best current small Slovenian product-development route if the innovative-startup SME eligibility gate is met.",
       "recommended_role": "Slovenian innovative startup SME applicant",
-      "next_action": "Check the entity gate with RA Savinja / Inkubator before any prototype costs."
+      "next_action": "Book SPOT/RA Savinja/Inkubator consultation and verify eligibility."
     },
     {
       "opportunity_id": "OPP-SI-SPS-V2-2026",
@@ -297,14 +298,14 @@
       "opportunity_id": "OPP-EU-NLNET-RESTACK-2026",
       "name": "NLnet Restack",
       "programme": "NLnet / Open Internet Stack",
-      "status": "screening",
+      "status": "deadline_imminent",
       "deadline": "2026-11-03",
       "funding_min_eur": "5000",
       "funding_max_eur": "50000",
-      "last_verified_at": "2026-10-20",
+      "last_verified_at": "2026-11-03",
       "verification_status": "verified_official",
-      "project_fit": "Conditional open-source route; strict GenAI-policy check required first.",
-      "next_action": "Go/no-go by 22 Oct after policy audit."
+      "project_fit": "Conditional fit for a human-led reusable open-source component under NLnet's current GenAI policy.",
+      "next_action": "Deadline 12:00 CET today. Submit only if a compliant human-led proposal already exists; otherwise move to a later NLnet cycle."
     },
     {
       "opportunity_id": "OPP-EU-NLNET-CODESUPPLY-2026",
@@ -342,6 +343,48 @@
       "verification_status": "verified_official_schedule",
       "project_fit": "Main medium-term international R&D route; enough time to solve entity and partner structure properly.",
       "next_action": "Use November to confirm the SME route and shortlist 2–3 R&D partners."
+    },
+    {
+      "opportunity_id": "OPP-EU-CREA-MEDIALITERACY-2027",
+      "name": "Creative Europe 2027 – NEWS Media Literacy",
+      "programme": "Creative Europe / Cross-sectoral",
+      "status": "consortium_search",
+      "opening_date": "2026-10-22",
+      "deadline": "2027-01-20",
+      "funding_max_eur": "500000",
+      "cofunding_rate": "70%",
+      "geographic_scope": "Creative Europe countries",
+      "consortium_required": "yes",
+      "minimum_partners": "3",
+      "last_verified_at": "2026-11-03",
+      "verification_status": "verified_official",
+      "project_fit": "Excellent thematic fit for CCR/Faking News with NGO/media/research partners, real pilots and evaluation; cannot be an IT-only proposal.",
+      "recommended_role": "technology/product partner; pilot/intervention work-package lead",
+      "next_action": "Use warm Slovenia/Italy contacts to form a 3-country consortium and choose coordinator by mid-November."
+    },
+    {
+      "opportunity_id": "OPP-EU-CREA-INNOVBUSMOD-2027",
+      "name": "Creative Europe 2027 – Innovative tools and business models",
+      "programme": "Creative Europe / MEDIA",
+      "status": "watch",
+      "opening_date": "2026-09-30",
+      "deadline": "2027-01-14",
+      "last_verified_at": "2026-11-03",
+      "verification_status": "verified_official_deadline",
+      "project_fit": "Possible broader media-tech route; weaker than Media Literacy for CCR/Faking News.",
+      "next_action": "P2: screen only after Media Literacy consortium work is moving."
+    },
+    {
+      "opportunity_id": "OPP-EU-CREA-DEVVGIM-2027",
+      "name": "Creative Europe 2027 – European video games and immersive content",
+      "programme": "Creative Europe / MEDIA",
+      "status": "watch",
+      "opening_date": "2026-09-30",
+      "deadline": "2027-02-02",
+      "last_verified_at": "2026-11-03",
+      "verification_status": "verified_official_deadline",
+      "project_fit": "Potential route for a commercial narrative/immersive game, not the primary Faking News education route.",
+      "next_action": "Select only if one existing game clearly fits narrative/commercial/IP criteria."
     }
   ]
 }
