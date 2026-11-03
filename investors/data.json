@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30",
+  "generated_at": "2026-11-03",
   "investors": [
     {
       "funding_id": "FUND-BAS",
@@ -27,8 +27,8 @@
       "category": "vc",
       "geography": "Slovenia",
       "stage": "pre-seed,seed",
-      "ticket_min_eur": "",
-      "ticket_max_eur": "",
+      "ticket_min_eur": "300000",
+      "ticket_max_eur": "1500000",
       "funding_type": "equity",
       "project_fit": "VR AI Companion; gaming/apps; AI; commercial CCR/EdTech",
       "priority": "P1",
@@ -37,9 +37,9 @@
       "contact_email": "",
       "website": "https://silicongardens.com/",
       "source_url": "https://www.startup.si/en-us/startup-map/investors/silicon-gardens",
-      "next_action": "Prepare short deck focused on strongest scalable product",
-      "notes": "Strong regional founder/investor network; fit includes B2B SaaS and gaming/apps.",
-      "last_verified_at": "2026-08-30"
+      "next_action": "Choose one scalable venture; prepare 7–10 slide deck + demo/traction and submit a pitch.",
+      "notes": "Current site: pre-seed/seed, EUR300k–1.5m initial ticket, Adria/CEE connection; B2B SaaS, marketplaces, mobile apps/games and D2C.",
+      "last_verified_at": "2026-11-03"
     },
     {
       "funding_id": "FUND-RUJ",
@@ -87,8 +87,8 @@
       "category": "vc",
       "geography": "Croatia,CEE,Europe",
       "stage": "idea,pre-seed,seed,Series A",
-      "ticket_min_eur": "10000",
-      "ticket_max_eur": "4000000",
+      "ticket_min_eur": "",
+      "ticket_max_eur": "300000",
       "funding_type": "equity",
       "project_fit": "AI; gaming; software; marketplace; VR AI",
       "priority": "P1",
@@ -97,9 +97,9 @@
       "contact_email": "",
       "website": "https://www.filrougecapital.com/",
       "source_url": "https://www.filrougecapital.com/contact",
-      "next_action": "Submit strongest tech venture through pitch channel",
-      "notes": "Investment routes span early idea/MVP through later rounds; exact ticket depends on programme/stage.",
-      "last_verified_at": "2026-08-30"
+      "next_action": "Apply only with one working MVP/early product, clear market/business model and early validation.",
+      "notes": "Current Accelerate route: up to EUR300k; expects a working MVP/product, international ambition and early traction/validation.",
+      "last_verified_at": "2026-11-03"
     },
     {
       "funding_id": "FUND-EITCC",
@@ -112,14 +112,14 @@
       "funding_type": "grant,accelerator",
       "project_fit": "CCR; Faking News; digital media; EdTech; interactive learning",
       "priority": "P1",
-      "status": "deadline",
+      "status": "closed",
       "deadline": "2026-10-12",
       "contact_email": "",
       "website": "https://eit-culture-creativity.eu/",
       "source_url": "https://eit-culture-creativity.eu/your-opportunities/calls-funding/financial-support-startups-and-scaleups-shape-acceleration-scale",
-      "next_action": "Prepare application, pitch deck, budget and working-demo evidence",
+      "next_action": "Archive the 2026 cycle; monitor the next startup/scaleup call.",
       "notes": "Up to EUR100k support with potential additional support for top companies; verify final call terms before submission.",
-      "last_verified_at": "2026-08-30"
+      "last_verified_at": "2026-11-03"
     },
     {
       "funding_id": "FUND-TRIGLAV",
@@ -132,14 +132,14 @@
       "funding_type": "sponsorship",
       "project_fit": "CCR; Faking News; education; social-impact pilots",
       "priority": "P1",
-      "status": "deadline",
-      "deadline": "2026-09-08",
+      "status": "watch",
+      "deadline": "",
       "contact_email": "sponzorstva@triglav.si",
       "website": "https://www.triglav.eu/",
       "source_url": "https://www.triglav.eu/sl/trajnostni-razvoj/sponzorstva-in-donatorstva",
-      "next_action": "Submit education/media-literacy sponsorship concept before deadline",
+      "next_action": "2026 tender closed; monitor next sponsorship/donation call.",
       "notes": "Good route for a Slovenian education/public-interest pilot; sponsorship rather than startup equity.",
-      "last_verified_at": "2026-08-30"
+      "last_verified_at": "2026-11-03"
     },
     {
       "funding_id": "FUND-TELEKOM",
@@ -157,9 +157,9 @@
       "contact_email": "",
       "website": "https://www.telekom.si/",
       "source_url": "https://www.telekom.si/sponzorstva",
-      "next_action": "Prepare two routes: CCR education sponsorship and AI/VR commercial pilot",
-      "notes": "Monthly sponsorship review plus potential innovation/startup collaboration routes.",
-      "last_verified_at": "2026-08-30"
+      "next_action": "Prepare a Slovenian digital-literacy sponsorship/pilot through an eligible organisation; apply at least 60 days before the activity.",
+      "notes": "Strong thematic match under Connected/Inclusive Slovenia. Current rules exclude physical persons and s.p. from sponsorship/donation support.",
+      "last_verified_at": "2026-11-03"
     },
     {
       "funding_id": "FUND-SWG",
@@ -227,8 +227,8 @@
       "category": "gaming_accelerator",
       "geography": "Europe",
       "stage": "prototype,early-stage",
-      "ticket_min_eur": "3000",
-      "ticket_max_eur": "3000",
+      "ticket_min_eur": "",
+      "ticket_max_eur": "",
       "funding_type": "grant,accelerator,publisher access",
       "project_fit": "game projects; AI games",
       "priority": "P2",
@@ -237,9 +237,9 @@
       "contact_email": "",
       "website": "https://gamebcn.co/",
       "source_url": "https://gamebcn.co/",
-      "next_action": "Select strongest playable game and prepare application/demo",
-      "notes": "Small cash grant but useful publisher access, mentoring and Demo Day.",
-      "last_verified_at": "2026-08-30"
+      "next_action": "Pick the strongest playable game and prepare demo, production plan, market case and team pitch.",
+      "notes": "Current call open through 31 Dec 2026 23:59 CET. Incubation is free; publisher/investor pitch access is a key benefit.",
+      "last_verified_at": "2026-11-03"
     },
     {
       "funding_id": "FUND-LUI",
@@ -251,15 +251,15 @@
       "ticket_max_eur": "",
       "funding_type": "incubation,investor matchmaking",
       "project_fit": "all portfolio projects; especially Slovenian startup setup",
-      "priority": "P1",
+      "priority": "P0",
       "status": "ready_to_contact",
       "deadline": "",
       "contact_email": "info@lui.uni-lj.si",
       "website": "https://lui.si/en/",
       "source_url": "https://lui.si/en/",
-      "next_action": "Book fundraising/startup-fit meeting and use LUI for investor introductions",
-      "notes": "Free support, no equity; useful for fundraising preparation, legal support, grants and investor matchmaking.",
-      "last_verified_at": "2026-08-30"
+      "next_action": "Book a free LUI meeting for investor introductions, grants, legal/fundraising structure and pitch preparation.",
+      "notes": "Free membership/no equity; current support includes investor introductions, grant applications, legal/commercialisation help and meeting preparation.",
+      "last_verified_at": "2026-11-03"
     },
     {
       "funding_id": "FUND-NVIDIA",
