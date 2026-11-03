@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-20T19:25:00+02:00",
+  "generated_at": "2026-11-03T10:55:00+01:00",
   "mini_grants": [
+    {
+      "id": "MINI-SI-EEA-CSF-QUICK",
+      "name": "EEA Civil Society Fund Slovenia — Quick-response actions",
+      "country": "Slovenia",
+      "status": "open rolling",
+      "deadline": "until funds are spent",
+      "funding": "€1,000–10,000",
+      "priority": "P1",
+      "first_win_fit": "high through NGO partner when an urgent case exists",
+      "route": "Eligible Slovenian NGO leads; partnerships possible",
+      "effort": "low-medium",
+      "next": "Do not force a planned product project into this call. Keep Socialna/other NGO partners ready for a genuine urgent media-literacy/disinformation response; €101,517.90 remained available on 27 Oct.",
+      "source": "https://eeagrants.org/en/eea-civil-society-fund-slovenia/calls/rolling-call-proposals-quick-response-small-projects/actions"
+    },
     {
       "id": "MINI-SI-SPS-V2-IP",
       "name": "SPS V2 Voucher for patents, designs & trademarks",
@@ -110,7 +124,7 @@
       "first_win_fit": "conditional_high",
       "route": "Slovenian innovative-startup SME; startup register + ≥1 employee + pre-application diagnostic",
       "effort": "low-medium",
-      "next": "First verify the company/startup-register/employee gate with RA Savinja or Inkubator. The prototype must not already be completed before submission.",
+      "next": "Book SPOT/RA Savinja/Inkubator and verify innovative-startup SME eligibility before incurring prototype costs.",
       "source": "https://www.podjetniskisklad.si/v9-vavcer-za-prototipiranje/"
     },
     {
@@ -145,21 +159,21 @@
       "id": "MINI-EU-NLNET-RESTACK",
       "name": "NLnet Restack",
       "country": "EU / Open Internet",
-      "status": "open",
+      "status": "deadline today 12:00 CET",
       "deadline": "2026-11-03",
       "funding": "€5,000–50,000",
       "priority": "P1",
       "first_win_fit": "conditional",
       "route": "Individual or organisation; no consortium",
       "effort": "low-medium",
-      "next": "Do a strict go/no-go against NLnet's 20 Oct GenAI policy before drafting. Proceed only with a genuinely reusable open-source component and a compliant development workflow.",
+      "next": "Submit only if a human-led, open-source and current-policy-compliant proposal already exists. Otherwise prepare for a later NLnet deadline cycle.",
       "source": "https://nlnet.nl/restack/"
     },
     {
       "id": "MINI-EU-NLNET-CODESUPPLY",
       "name": "NLnet CodeSupply",
       "country": "EU / Open Internet",
-      "status": "open",
+      "status": "deadline today 12:00 CET",
       "deadline": "2026-11-03",
       "funding": "€5,000–50,000",
       "priority": "P2",
