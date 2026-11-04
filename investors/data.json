@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03",
+  "generated_at": "2026-11-04",
   "investors": [
     {
       "funding_id": "FUND-BAS",
@@ -340,6 +340,46 @@
       "next_action": "Use in Slovenian angel/VC negotiations as possible matching-investment route",
       "notes": "Potential matching route alongside private investment; exact eligibility and current availability must be confirmed.",
       "last_verified_at": "2026-08-30"
+    },
+    {
+      "funding_id": "FUND-A1-SI",
+      "name": "A1 Slovenija",
+      "category": "corporate_sponsor",
+      "geography": "Slovenia",
+      "stage": "pilot,project",
+      "ticket_min_eur": "",
+      "ticket_max_eur": "",
+      "funding_type": "sponsorship,donation,corporate partnership",
+      "project_fit": "Faking News; digital literacy; youth; online safety; gamified education",
+      "priority": "P1",
+      "status": "ready_to_contact",
+      "deadline": "",
+      "contact_email": "",
+      "website": "https://www.a1.si/",
+      "source_url": "https://www.a1.si/kontakti",
+      "next_action": "Use the official contact form to route a measurable digital-literacy sponsored pilot to the CSR/sponsorship owner.",
+      "notes": "Strong strategic sponsor fit; A1 supports education/science/social initiatives but routes new enquiries through its contact form.",
+      "last_verified_at": "2026-11-04"
+    },
+    {
+      "funding_id": "FUND-NLB-SI",
+      "name": "NLB",
+      "category": "corporate_sponsor",
+      "geography": "Slovenia,SEE",
+      "stage": "pilot,project",
+      "ticket_min_eur": "",
+      "ticket_max_eur": "",
+      "funding_type": "sponsorship,education partnership",
+      "project_fit": "gamified learning; youth; financial and digital literacy; misinformation/scam awareness",
+      "priority": "P2",
+      "status": "prospect",
+      "deadline": "",
+      "contact_email": "",
+      "website": "https://www.nlb.si/",
+      "source_url": "https://www.nlbgroup.com/",
+      "next_action": "Develop a narrow pilot around scams/financial misinformation before outreach.",
+      "notes": "Better fit with a concrete financial-information-literacy use case than a generic Faking News pitch.",
+      "last_verified_at": "2026-11-04"
     }
   ]
 }
