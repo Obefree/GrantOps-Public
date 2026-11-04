@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:55:00+01:00",
+  "generated_at": "2026-11-04T16:15:00+01:00",
   "opportunities": [
     {
       "opportunity_id": "OPP-EU-EUROSTARS-CALL11-2026",
@@ -298,14 +298,14 @@
       "opportunity_id": "OPP-EU-NLNET-RESTACK-2026",
       "name": "NLnet Restack",
       "programme": "NLnet / Open Internet Stack",
-      "status": "deadline_imminent",
+      "status": "closed",
       "deadline": "2026-11-03",
       "funding_min_eur": "5000",
       "funding_max_eur": "50000",
-      "last_verified_at": "2026-11-03",
-      "verification_status": "verified_official",
+      "last_verified_at": "2026-11-04",
+      "verification_status": "deadline_passed",
       "project_fit": "Conditional fit for a human-led reusable open-source component under NLnet's current GenAI policy.",
-      "next_action": "Deadline 12:00 CET today. Submit only if a compliant human-led proposal already exists; otherwise move to a later NLnet cycle."
+      "next_action": "Move the reusable open-source concept to a later NLnet cycle."
     },
     {
       "opportunity_id": "OPP-EU-NLNET-CODESUPPLY-2026",
@@ -385,6 +385,100 @@
       "verification_status": "verified_official_deadline",
       "project_fit": "Potential route for a commercial narrative/immersive game, not the primary Faking News education route.",
       "next_action": "Select only if one existing game clearly fits narrative/commercial/IP criteria."
+    },
+    {
+      "opportunity_id": "OPP-IL-IIA-TNUFA-2026-11",
+      "name": "Israel Innovation Authority – Tnufa / Ideation",
+      "programme": "Israel Innovation Authority Startup Fund",
+      "status": "deadline_imminent",
+      "deadline": "2026-11-09",
+      "funding_max_eur": "NIS 200000",
+      "cofunding_rate": "80% approved budget",
+      "geographic_scope": "Israel",
+      "last_verified_at": "2026-11-04",
+      "verification_status": "verified_official",
+      "project_fit": "Strong fast-grant route for a genuinely early POC/prototype if applicant/entity rules are met.",
+      "recommended_role": "eligible Israeli entrepreneur or startup",
+      "next_action": "Get an explicit eligibility answer immediately; current cutoff shown by IIA is 9 Nov 12:00."
+    },
+    {
+      "opportunity_id": "OPP-IL-IIA-PRESEED-2026-11",
+      "name": "Israel Innovation Authority – Pre-Seed",
+      "programme": "Israel Innovation Authority Startup Fund",
+      "status": "deadline_imminent",
+      "deadline": "2026-11-09",
+      "funding_max_eur": "NIS 2000000",
+      "cofunding_rate": "60% of round",
+      "geographic_scope": "Israel",
+      "last_verified_at": "2026-11-04",
+      "verification_status": "verified_official",
+      "project_fit": "Large leveraged route for an Israeli R&D-intensive startup with a qualifying round and signed investor commitment.",
+      "recommended_role": "Israeli startup applicant",
+      "next_action": "Check company eligibility and investor commitment before investing proposal time."
+    },
+    {
+      "opportunity_id": "OPP-GLOBAL-MOZILLA-HUMANSCALE-AI-2026",
+      "name": "Mozilla Foundation – Human-Scale AI Incubator",
+      "programme": "Mozilla Foundation",
+      "status": "open",
+      "deadline": "2026-11-20",
+      "funding_max_eur": "USD 500000",
+      "geographic_scope": "Global / call-specific",
+      "last_verified_at": "2026-11-04",
+      "verification_status": "verified_official",
+      "project_fit": "Potentially strong for one selected AI project that starts from a real human/community problem rather than AI for its own sake.",
+      "recommended_role": "direct applicant",
+      "next_action": "Select one AI thesis by 7 Nov; do not submit multiple unrelated products."
+    },
+    {
+      "opportunity_id": "OPP-EU-EED-ROLLING-2026",
+      "name": "European Endowment for Democracy – flexible support",
+      "programme": "EED",
+      "status": "open_rolling",
+      "geographic_scope": "European Neighbourhood / Western Balkans / Turkey and beyond",
+      "last_verified_at": "2026-11-04",
+      "verification_status": "verified_official",
+      "project_fit": "Strong for a distinct democracy/resilience initiative targeting an eligible community; not a generic commercial EdTech pitch.",
+      "recommended_role": "direct applicant or partner-led initiative",
+      "next_action": "Prepare a separate mission-led concept only if target geography/community clearly fits."
+    },
+    {
+      "opportunity_id": "OPP-GLOBAL-NED-2027-01",
+      "name": "National Endowment for Democracy – Grants Program",
+      "programme": "NED",
+      "status": "watch",
+      "deadline": "2027-01-27",
+      "geographic_scope": "Global democracy priority regions",
+      "last_verified_at": "2026-11-04",
+      "verification_status": "verified_official",
+      "project_fit": "Potential NGO route for nonpartisan civic education/media integrity in eligible regions.",
+      "recommended_role": "NGO applicant / technology partner",
+      "next_action": "Choose target region and NGO route before drafting."
+    },
+    {
+      "opportunity_id": "OPP-PT-2030-MPR-2026-11",
+      "name": "Portugal 2030 – Business R&D MPr-2026-11",
+      "programme": "Portugal 2030 / COMPETE",
+      "status": "open",
+      "deadline": "2026-12-30",
+      "geographic_scope": "Portugal",
+      "last_verified_at": "2026-11-04",
+      "verification_status": "verified_official",
+      "project_fit": "Strong if a qualifying Portuguese company in an eligible region and a real industrial-R&D workplan are available.",
+      "recommended_role": "Portuguese SME applicant or co-promoter",
+      "next_action": "Verify entity and region, then select the strongest R&D project."
+    },
+    {
+      "opportunity_id": "OPP-EU-EMIF-MEDIALITERACY-WATCH",
+      "name": "European Media and Information Fund – Media Literacy",
+      "programme": "EMIF",
+      "status": "watch",
+      "funding_max_eur": "400000",
+      "geographic_scope": "Europe",
+      "last_verified_at": "2026-11-04",
+      "verification_status": "watch_no_open_deadline_verified",
+      "project_fit": "Excellent thematic watch route: framework explicitly covers gaming, multilingual education and software/tools against disinformation.",
+      "next_action": "Monitor the next open call."
     }
   ]
 }
