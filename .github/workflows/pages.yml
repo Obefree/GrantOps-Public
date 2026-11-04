@@ -1,8 +1,6 @@
-name: Deploy GrantOps Public
+name: Deploy GrantOps Public (legacy manual backup)
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
